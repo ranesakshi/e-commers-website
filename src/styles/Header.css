@@ -1,0 +1,22 @@
+.nav-link:hover {
+  background-color: gray;
+}
+
+.badge {
+  color: red !important;
+  border: 1px solid red;
+  border-radius: 16px !important;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  transition: top 0.3s;
+  border-bottom: 1px solid black;
+}
+
+.header.sticky {
+  top: -100px;
+}

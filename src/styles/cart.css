@@ -1,0 +1,17 @@
+.cart-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  gap: 20px;
+}
+
+.cart-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.cart-item img {
+  max-width: 100px;
+  margin-right: 20px;
+}
